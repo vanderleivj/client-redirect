@@ -34,5 +34,5 @@ export default function Home() {
     console.info("Dispositivo detectado:", deviceType);
   }, [router]);
 
-  return <div>tt</div>;
+  return <div className="hidden">tt</div>;
 }
