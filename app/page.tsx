@@ -26,7 +26,8 @@ export default function Home() {
       setDeviceType("Desktop"); // Define o tipo de dispositivo como "Desktop"
       // router.push("/link-b"); // Redireciona para o link B (exemplo)
     }
+    console.info("Dispositivo detectado:", deviceType);
   }, [router]);
 
-  return <div>O dispositivo é: {deviceType}</div>;
+  return <div />;
 }
